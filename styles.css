@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+.section-header {
+  background-color: black;
+  color: #fff;
+  padding: 60px;
+  overflow: hidden;
+}
+.heading h2 {
+  font-size: 48px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #27a776;
+  margin-bottom: 5px;
+}
+.heading p {
+  font-size: 36px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top:10px;
+}
+.first-para{
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+section{
+  scroll-margin-top: 100px;
+}
+.text{
+  background-image: url(https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-2.jpg);
+  min-height: 600px;
+  width: 100%;
+  padding: 300px 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text h2{
+  font-size: 24px;
+  color:red;
+  text-align: center;
+  justify-content:flex-end;
+  box-sizing: border-box;
+  margin: 0;
+}
+.text p{
+  font-size: 20px;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 10px;
+}
