@@ -14,8 +14,7 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+  
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -31,6 +30,14 @@
       integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
       crossorigin="anonymous"
     ></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
   </head>
   <body>
     <!--first page
@@ -342,8 +349,8 @@
           <h4 class="card-title mt-3 text-center">Create Account</h4>
           <p>Get started with your free account</p>
           <p>
-            <a href class="btn btn-block btn-twitter">
-              <i class="fab fa-twitter"></i>
+            <a href class="btn btn-block btn-primary">
+              <i class="bi bi-twitter"></i>
               Login via twitter
             </a>
           </p>
@@ -354,12 +361,41 @@
           <div class="form-group input-group">
             <div class="input-group-prepend">
               <span class="input-group-text">
-                <i></i>
+                <i class="bi bi-person-fill"></i>
               </span>
 
             </div>
+            <input type="text" class="form-control" placeholder="Full Name">
 
           </div>
+          <div class="form-group input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill"></i>
+              </span>
+
+            </div>
+            <input type="text" class="form-control" placeholder="E-mail Address">
+
+          </div>
+          <div class="form-group input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="bi bi-telephone-fill"></i>
+              </span>
+
+            </div>
+            <select>
+              <option>+971</option>
+              <option>+972</option>
+              <option>+198</option>
+
+            </select>
+
+            <input type="text" class="form-control" placeholder="Phone number">
+
+          </div>
+
 
         </div>
 
