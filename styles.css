@@ -83,6 +83,7 @@ input{
   font-size: 15px;
   font-weight: 400;
   height: 43px;
+  letter-spacing: 0.2em;
 }
 button{
   padding: 8px 15px;
@@ -90,5 +91,26 @@ button{
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+
+}
+select{
+  padding: 8px 15px!important;
+  border-radius: 5px!important;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc!important;
+  font-size: 18px!important;
+  font-weight: 300!important;
+  line-height: inherit!important;
+  background-color:#fff;
+}
+textarea{
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  font-weight: 300;
 
 }
