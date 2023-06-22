@@ -123,9 +123,10 @@ h4 {
   background-color: #fff;
 }
 .card-heading {
-  background-image: url('https://colorlib.com/etc/regform/colorlib-regform-1/images/bg-head-02.jpg')
-    center;
+  background-image: url("https://colorlib.com/etc/regform/colorlib-regform-1/images/bg-head-02.jpg");
   padding-top: 210px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .card-body {
   padding: 0 90px;
@@ -146,7 +147,6 @@ h4 {
   margin-bottom: 30px;
   position: relative;
   background-color: transparent;
-  color:rgb(204, 204, 204);
 }
 input {
   outline: none;
@@ -183,4 +183,15 @@ input {
   margin-bottom: 30px;
   border-bottom: 2px solid #ccc;
   width: 50%;
+}
+.btn-green{
+  background-color: #57b846;
+  color: #fff;
+}
+.btn-green:hover{
+  background-color: #4dae3c;
+  color: #fff;
+}
+select{
+  color: rgb(117,119,139);
 }
